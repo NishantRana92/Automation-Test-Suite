@@ -40,7 +40,7 @@ There are few things which we can do to reduce the overall execution time using 
 **When to use**
 
 - When working in rapid, small iterations of development cycle we can use BDD as it can increase the feedback
-- We can use BDD approach where collaboration across the roles are encouraged so that tests can be written in English formatted scenarios so anyone can understand the test cases and see the requirement coverage.
+- We can also use BDD approach where collaboration across the roles are encouraged so that tests can be written in English formatted scenarios so anyone can understand the test cases and see the requirement coverage.
 
 **When not to use BDD**
 
