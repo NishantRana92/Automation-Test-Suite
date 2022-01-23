@@ -12,7 +12,7 @@
 > Chrome version Version 97.0.4692.99 
 
 
-When new version is pushed the maintenance of the test suite would be needed to update any XPath changed.
+**When new version is pushed the maintenance of the test suite would be needed to update any XPath changed.**
 
 
 
@@ -36,6 +36,16 @@ There are few things which we can do to reduce the overall execution time using 
 -	By using Nunit, we can introduce  [Parallelizable] to our test suite by doing that, as our application expands into other category’s we can run them in parallel which will reduce the time significantly.
 
 ## (Question) Describe when to use a BDD approach to automation and when NOT to use BDD 
+
+**When to use**
+
+- When working in rapid, small iterations of development cycle we can use BDD as it can increase the feedback
+- We can use BDD approach where collaboration across the roles are encouraged so that tests can be written in English formatted scenarios so anyone can understand the test cases and see the requirement coverage.
+
+**When not to use BDD**
+
+- BDD requires the involvement from teams and stakeholders within the organization, if management is not able to understand the concept of BDD and or are still exploring or discovering the product, in that case, we should avoid using the BDD approach.
+
 
 
 
