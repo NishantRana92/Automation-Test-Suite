@@ -11,7 +11,10 @@
 
 > Chrome version Version 97.0.4692.99 
 
-##### When new version is pushed the maintenance of the test suite would be needed to update any XPath changed.
+
+When new version is pushed the maintenance of the test suite would be needed to update any XPath changed.
+
+
 
 # Question Answers from Planit Technical Assessment – Automation
 
