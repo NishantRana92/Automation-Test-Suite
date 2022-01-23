@@ -10,7 +10,6 @@
 *.sublime-workspace
 /.git
 /.vs
-/tests/C4SUITests/.vs
 /Automation Test Suite/bin
 /Automation Test Suite/obj
 
