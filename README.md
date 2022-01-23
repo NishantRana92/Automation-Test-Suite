@@ -9,7 +9,7 @@
 
 # Browser used 
 
-> Chrome version Version 97.0.4692.99 
+> Chrome version Version 97.0.4692.71 
 
 
 **When new version is pushed the maintenance of the test suite would be needed to update any XPath changed.**
