@@ -27,6 +27,10 @@ expecting the of tests will grow to a very large number.
 1. What approaches could you used to reduce overall execution time?
 2. How will your framework cater for this?
 
+There are few things which we can do to reduce the overall execution time using selenium test automation with Nunit
+-	By Implementing explicit time then Time. Sleep or Thread. Sleep as by introducing explicit time, it will not stop the execution of the script for the time specified in the script, irrespective of the fact that the element on the web page has been found. 
+-	Also by using selenium waits, we are less likely to have flaky test
+-	By using Nunit, we can introduce  [Parallelizable] to our test suite by doing that, as our application expands into other category’s we can run them in parallel which will reduce the time significantly.
 
 
 
