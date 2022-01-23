@@ -31,7 +31,7 @@
 ### 2. How will your framework cater for this?
 
 There are few things which we can do to reduce the overall execution time using selenium test automation with Nunit
--	By Implementing explicit time then Time. Sleep or Thread. Sleep as by introducing explicit time, it will not stop the execution of the script for the time specified in the script, irrespective of the fact that the element on the web page has been found. (Example of this has been implemented in this test framework)
+-	By Implementing explicit time from selenium waits than hard coding time delys in script using Time.Sleep or Thread.Sleep as by introducing explicit time, it will not stop the execution of the script for the time specified in the script, irrespective of the fact that the element on the web page has been found. (Example of this has been implemented in this test framework)
 -	Also by using selenium waits, we are less likely to have flaky test
 -	By using Nunit, we can introduce  [Parallelizable] to our test suite by doing that, if our application expands into other category’s we can run them in parallel which will reduce the time significantly. (Example of this has been implemented in this test framework)
 
