@@ -25,7 +25,7 @@ namespace Automation_Test_Suite
             chromeOptions.AddArguments("--disable-extensions");
             driver = new ChromeDriver(chromeOptions);
             driver.Navigate().GoToUrl("https://jupiter.cloud.planittesting.com");
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(15));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
 
         
