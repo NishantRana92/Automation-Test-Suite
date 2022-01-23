@@ -16,7 +16,7 @@ namespace Automation_Test_Suite
             wait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("form-actions"))).FindElement(By.TagName("a")).Click();
 
             //Validating error 
-            Assert.IsTrue(Verify_elemnt("forename-err"), "FAIL: Forename error not available");
+            Assert.IsTrue(Verify_elemnt("forename-err"), "FAIL: Firstname error not available");
             Assert.IsTrue(Verify_elemnt("email-err"), "FAIL: Email error not available");
             Assert.IsTrue(Verify_elemnt("message-err"), "FAIL: Message error not available");
 
@@ -24,7 +24,7 @@ namespace Automation_Test_Suite
             Adding_mandatory_fields("Test User", "email@mail.com", "Test Message");
 
             //Validating error are gone
-            Assert.IsFalse(Verify_elemnt("forename-err"), "FAIL: Forname error");
+            Assert.IsFalse(Verify_elemnt("forename-err"), "FAIL: Firstname error");
             Assert.IsFalse(Verify_elemnt("email-err"), "FAIL: Email error");
             Assert.IsFalse(Verify_elemnt("message-err"), "FAIL: Message error");
         }
