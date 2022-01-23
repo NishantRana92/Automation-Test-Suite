@@ -1,8 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using System.Threading;
 using SeleniumExtras.WaitHelpers;
-using System;
 
 namespace Automation_Test_Suite
 {

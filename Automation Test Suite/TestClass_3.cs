@@ -2,17 +2,11 @@
 using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Automation_Test_Suite
 {
     [TestFixture]
     [Parallelizable]
-    public class TestClass3 : Common_lib
+    public class TestClass_3 : Common_lib
     {
         [Test]
         public void Test_case_3()

@@ -6,7 +6,7 @@ namespace Automation_Test_Suite
 {
     [TestFixture]
     [Parallelizable]
-    public class TestClass2 : Common_lib
+    public class TestClass_2 : Common_lib
     {
         [Test]
         [Repeat(5)]
